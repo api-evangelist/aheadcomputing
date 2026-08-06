@@ -1,7 +1,15 @@
 aid: aheadcomputing
 name: AheadComputing
-description: 'AheadComputing is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'AheadComputing Inc. is a Portland, Oregon fabless semiconductor startup
+  founded in 2024 by former Intel CPU architects — CEO Debbie Marr, Jonathon Pearce,
+  Mark Dechene and Srikanth Srinivasan — that designs and licenses high-performance
+  64-bit RISC-V application processor cores. The company markets a clean-slate, massive
+  out-of-order "big core" architecture aimed at eliminating per-core CPU bottlenecks
+  for AI, cloud, client, mobile and edge workloads, and has raised roughly $53M across
+  a $21.5M seed and a $30M Seed2 round co-led by Eclipse, Toyota Ventures and Cambium.
+  Its product is silicon IP licensed to chip designers rather than software, so it
+  publishes no public API, developer portal, SDK or machine-readable contract.'
+image: https://cdn.prod.website-files.com/6909ebc0bb1e997f5360fd6a/695be60fcabc7b3e07a37ab0_webflow_webclip.png
 url: https://raw.githubusercontent.com/api-evangelist/aheadcomputing/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +20,14 @@ created: '2026-08-06'
 modified: '2026-08-06'
 tags:
 - Company
+- Semiconductors
+- RISC-V
+- CPU
+- Processors
+- Silicon IP
+- Hardware
+- AI Infrastructure
+- Data Center
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +35,44 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/aheadcomputing-domain-security.yml
 - type: Website
+  url: https://www.aheadcomputing.com/
+- type: Blog
+  url: https://www.aheadcomputing.com/blog
+- type: News
+  url: https://www.aheadcomputing.com/news
+- type: PrivacyPolicy
+  url: https://www.aheadcomputing.com/privacy-policy
+- type: Contact
+  url: https://www.aheadcomputing.com/contact
+- type: Careers
+  url: https://www.aheadcomputing.com/careers
+- type: SecondaryMarket
   url: https://forgeglobal.com/aheadcomputing_stock/
+x-enrichment:
+  date: '2026-08-06'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: AheadComputing licenses 64-bit RISC-V CPU core designs (silicon IP) to chip
+    makers rather than shipping software, and its entire web presence is a seven-page
+    Webflow marketing site — home, markets, team, careers, blog, news, contact — with
+    no developer, docs, or API section, and no docs./api./developer. subdomain resolving
+    in DNS at all.
+  evidence:
+  - url: https://www.aheadcomputing.com/
+    status: 200
+  - url: https://www.aheadcomputing.com/openapi.json
+    status: 404
+  - url: https://www.aheadcomputing.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.aheadcomputing.com/.well-known/security.txt
+    status: 404
+  - url: https://www.aheadcomputing.com/docs
+    status: 404
+  checked: '2026-08-06'
