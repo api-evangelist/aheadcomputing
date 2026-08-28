@@ -9,6 +9,17 @@ description: 'AheadComputing Inc. is a Portland, Oregon fabless semiconductor st
   a $21.5M seed and a $30M Seed2 round co-led by Eclipse, Toyota Ventures and Cambium.
   Its product is silicon IP licensed to chip designers rather than software, so it
   publishes no public API, developer portal, SDK or machine-readable contract.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.prod.website-files.com/6909ebc0bb1e997f5360fd6a/695be60fcabc7b3e07a37ab0_webflow_webclip.png
 url: https://raw.githubusercontent.com/api-evangelist/aheadcomputing/refs/heads/main/apis.yml
 x-type: company
