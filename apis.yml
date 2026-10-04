@@ -50,7 +50,7 @@ tags:
 - Silicon IP
 - Hardware
 - AI Infrastructure
-- Data-Center
+- Data Center
 tags_raw:
 - Company
 - Semiconductors
@@ -61,6 +61,7 @@ tags_raw:
 - Hardware
 - AI Infrastructure
 - Data Center
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
