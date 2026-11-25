@@ -86,7 +86,7 @@ Model Context Protocol servers that expose the API to agents.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Aheadcomputing Domain Security](https://apis.io/security/aheadcomputing/aheadcomputing-domain-security/)
+- [AheadComputing Domain Security](https://apis.io/security/aheadcomputing/aheadcomputing-domain-security/)
 
 ## Where to find this API
 
@@ -98,18 +98,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 7.0** — minimal · rubric 0.25.0 · scored 2026-10-23
+**Kin Score 6.7** — minimal · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 52.5 |
+| Discoverability | 53.3 |
 | Contract quality | 0.0 |
 | Contract governance | 0.0 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 2.4 |
-| Access clarity | 10.5 |
+| Access clarity | 12.8 |
 
-**Agent readiness 12.2** — agent-aware
+**Agent readiness 12.0** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -134,8 +134,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 9.8** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 3.9** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aheadcomputing/](https://apis.io/providers/aheadcomputing/).
 
